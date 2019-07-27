@@ -1,206 +1,187 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Urku Portfolio :: Pixeden</title>
-    <link rel="icon" type="image/svg+xml" href="assets/img/urku-ico.svg">
-    <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
-    <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
-    <link rel="stylesheet" href="assets/css/urku.css">
-  </head>
-  <body class="top-fixed">
-    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
-      <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-      <label for="mobile-menu">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-      </label>
-      <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html">urku portfolio<sup>tm</sup></a></h1>
-        <nav class="rk-navigation">
-          <ul class="rk-menu">
-            <li class="active rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
-            </li>
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
-              <nav class="rk-menu__sub">
-                <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Flex</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Switch</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Static</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Masonry</a></li>
-                </ul>
-              </nav>
-            </li>
-            <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
-            </li>
-            <li class="rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
-              <nav class="rk-menu__sub">
-                <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                  <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                  <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
-                </ul>
-              </nav>
-            </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
-            </li>
-          </ul>
-          <form class="rk-search">
-            <input type="text" placeholder="Search" id="urku-search" class="rk-search-field">
-            <label for="urku-search">
-              <svg>
-                <use xlink:href="assets/img/symbols.svg#icon-search"></use>
-              </svg>
-            </label>
-          </form>
-        </nav>
-      </div>
-    </header>
-    <section class="ae-container-fluid rk-main">
-      <input type="radio" name="layout-ctrl" checked id="layout-base" class="layout-ctrl-input">
-      <div class="ae-container-fluid rk-layout-ctrl-cont">
-        <label for="layout-base" class="rk-layout-ctrl">
-          <svg>
-            <use xlink:href="assets/img/symbols.svg#icon-view-default"></use>
-          </svg>
-        </label>
-      </div>
-      <input type="radio" name="layout-ctrl" id="layout-grid" class="layout-ctrl-input">
-      <div class="ae-container-fluid rk-layout-ctrl-cont">
-        <label for="layout-grid" class="rk-layout-ctrl">
-          <svg>
-            <use xlink:href="assets/img/symbols.svg#icon-view-alt"></use>
-          </svg>
-        </label>
-      </div>
-      <div class="rk-layout-ctrl-mobile">
-        <svg viewBox="0 0 9 9" class="layout-mob-1">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-        <svg viewBox="0 0 9 9" class="layout-mob-2">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-        <svg viewBox="0 0 9 9" class="layout-mob-3">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-        <svg viewBox="0 0 9 9" class="layout-mob-4">
-          <rect width="100%" height="100%" fill="currentColor"></rect>
-        </svg>
-      </div>
-      <section class="ae-container-fluid ae-container-fluid--inner loading rk-portfolio ">
-        <div class="rk-portfolio__items"><a href="portfolio-item.html" class="rk-item rk-item--flex item-1 rk-size-12 rk-tosize-6 rk-landscape ">
-            <div class="item-meta">
-              <h2>Essential Stationery</h2>
-              <p>Branding</p>
-            </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-2 rk-size-6  rk-portrait ">
-            <div class="item-meta">
-              <h2>Pickled Tousled</h2>
-              <p>Art Direction</p>
-            </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-3 rk-size-6 rk-tosize-4 rk-portrait rk-tosquare">
-            <div class="item-meta">
-              <h2>Waistcoat vegan</h2>
-              <p>Graphic Design</p>
-            </div></a>
-          <div class="rk-items-cont rk-size-6 rk-tosize-8"><a href="portfolio-item.html" class="rk-item rk-item--flex item-4 rk-size-12 rk-tosize-6 rk-landscape ">
-              <div class="item-meta">
-                <h2>Tumblr hammock</h2>
-                <p>Packaging</p>
-              </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-5 rk-size-12 rk-tosize-6 rk-landscape ">
-              <div class="item-meta">
-                <h2>Biodiesel etsy</h2>
-                <p>Branding</p>
-              </div></a>
-          </div><a href="portfolio-item.html" class="rk-item rk-item--flex item-6 rk-size-6 rk-tosize-4 rk-portrait rk-tosquare">
-            <div class="item-meta">
-              <h2>Gentrify artisan</h2>
-              <p>Graphic Design</p>
-            </div></a>
-          <div class="rk-items-cont rk-size-4 rk-tosize-8"><a href="portfolio-item.html" class="rk-item rk-item--flex item-7 rk-size-12 rk-tosize-6 rk-square ">
-              <div class="item-meta">
-                <h2>Plaid austin</h2>
-                <p>Graphic Design</p>
-              </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-8 rk-size-12 rk-tosize-6 rk-square ">
-              <div class="item-meta">
-                <h2>Trust fund</h2>
-                <p>Packaging</p>
-              </div></a>
-          </div><a href="portfolio-item.html" class="rk-item rk-item--flex item-9 rk-size-8 rk-tosize-3 rk-square ">
-            <div class="item-meta">
-              <h2>Gentrify pork</h2>
-              <p>Branding</p>
-            </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-10 rk-size-6 rk-tosize-3 rk-portrait rk-tosquare">
-            <div class="item-meta  rk-tosmallfont">
-              <h2>Waistcoat ugh</h2>
-              <p>UI/UX</p>
-            </div></a>
-          <div class="rk-items-cont rk-size-6 rk-tosize-6"><a href="portfolio-item.html" class="rk-item rk-item--flex item-11 rk-size-12 rk-tosize-6 rk-landscape rk-tosquare">
-              <div class="item-meta">
-                <h2>Deep v kogi</h2>
-                <p>Graphic Design</p>
-              </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-12 rk-size-12 rk-tosize-6 rk-landscape rk-tosquare">
-              <div class="item-meta">
-                <h2>Venmo trust</h2>
-                <p>Packaging</p>
-              </div></a>
-          </div><a href="portfolio-item.html" class="rk-item rk-item--flex item-13 rk-size-8 rk-tosize-3 rk-square ">
-            <div class="item-meta">
-              <h2>Venmo trust</h2>
-              <p>Ui/UX</p>
-            </div></a>
-          <div class="rk-items-cont rk-size-4 rk-tosize-6"><a href="portfolio-item.html" class="rk-item rk-item--flex item-14 rk-size-12 rk-tosize-6 rk-square ">
-              <div class="item-meta">
-                <h2>Gentrify semiotic</h2>
-                <p>Art Direction</p>
-              </div></a><a href="portfolio-item.html" class="rk-item rk-item--flex item-15 rk-size-12 rk-tosize-6 rk-square ">
-              <div class="item-meta">
-                <h2>Migas artisan</h2>
-                <p>Photography</p>
-              </div></a>
+</html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Wenxian Fei - Data scientist</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Google fonts - Roboto-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+  <!-- owl carousel-->
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body>
+  <div id="all">
+    <div class="container-fluid">
+      <div class="row row-offcanvas row-offcanvas-left">
+        <!--   *** SIDEBAR ***-->
+        <div id="sidebar" class="col-md-4 col-lg-3 sidebar-offcanvas">
+          <div class="sidebar-content">
+            <h1 class="sidebar-heading"> <a href="index.html">Wenxian Fei</a></h1>
+            <p class="sidebar-p">Hi, I'm a data scientist with business and product background. </p>
+            <p class="sidebar-p">Originally from Shanghai China, currently based in Seattle. </p>
+            <ul class="sidebar-menu">
+                <!-- Link-->
+                <li class="sidebar-item"><a href="index.html" class="sidebar-link active">Home</a></li>
+                <!-- Link-->
+                <li class="sidebar-item"><a href="about.html" class="sidebar-link">About</a></li>
+                <!-- Link-->
+                <li class="sidebar-item"><a href="contact.html" class="sidebar-link">Get in touch</a></li>
+            </ul>
+            <p class="social"><a href="#" data-animate-hover="pulse" class="external facebook"><i class="fa fa-facebook"></i></a><a href="#" data-animate-hover="pulse" class="external gplus"><i class="fa fa-google-plus"></i></a><a href="#" data-animate-hover="pulse" class="external twitter"><i class="fa fa-twitter"></i></a><a href="#" title="" class="external instagram"><i class="fa fa-instagram"></i></a><a href="#" data-animate-hover="pulse" class="email"><i class="fa fa-envelope"></i></a></p>
+            <div class="copyright text-center text-md-left">
+              <p class="credit">&copy;2019 Wenxian Fei | Template by <a href="http://bootstrapious.com/portfolio-themes" class="external">Bootstrapious.com</a></p>
+              <!-- Please do not remove the backlink to us, unless you support the development at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :)        -->
+            </div>
           </div>
         </div>
-      </section>
-    </section>
-    <footer class="ae-container-fluid rk-footer ">
-      <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
-          <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
-            </li>
-            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
-            </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
-            </li>
-          </ul>
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
+        <!--   *** SIDEBAR END ***  -->
+        <!--   *** PORTFOLIO ***-->
+        <div class="col-md-8 col-lg-9 content-column">
+          <div class="small-navbar d-flex d-md-none">
+            <button type="button" data-toggle="offcanvas" class="btn btn-outline-primary"> <i class="fa fa-align-left mr-2"></i>Menu</button>
+            <h1 class="small-navbar-heading"> <a href="index.html">Creative </a></h1>
+          </div>
+          <div class="grid row">
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay"><img src="img/portfolio/recommendation system.jpg" alt="" class="img-fluid"></a>
+                <div class="box-masonry-hover-text-header"> <a href="https://github.com/vivienfay/Recommendation-System-based-on-Yelp-Dataset" class="tile-link">  </a>
+                  <h4>Recommendation System for Yelp on text mining</h4>
+                  <div class="box-masonry-desription">
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry"> <a href="https://github.com/vivienfay/Airbnb-Seattle-Rental-Price-Prediction/blob/master/Airbnb_price_prediction.ipynb" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/airbnb.jpg" alt="" class="img-fluid"></a>
+                <div class="box-masonry-text">
+                  <h4> <a href="https://github.com/vivienfay/Airbnb-Seattle-Rental-Price-Prediction/blob/master/Airbnb_price_prediction.ipynb">Airbnb Housing Price Prediction</a></h4>
+                  <div class="box-masonry-desription">
+                    <p> When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry"> <a href="https://public.tableau.com/profile/wenxian.fei#!/vizhome/dognition_13/DognitionOperationAnalysis?publish=yes" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/dognition.png" alt="" class="img-fluid"></a>
+                <div class="box-masonry-text">
+                  <h4> <a href="https://public.tableau.com/profile/wenxian.fei#!/vizhome/dognition_13/DognitionOperationAnalysis?publish=yes">Dognition User Rentention Business Analysis</a></h4>
+                  <div class="box-masonry-desription">
+                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry">
+                <div class="box-masonry-text">
+                  <h4> <a href="https://github.com/vivienfay/ChargingSelection_linprog/blob/master/Charging_Selection.ipynb">Charging Selection Model of Electic Vehicles Users Based on Things of Vehicles</a></h4>
+                  <div class="box-masonry-desription">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay"><img src="img/portfolio/business-card.jpg" alt="" class="img-fluid"></a>
+                <div class="box-masonry-hover-text-header"> <a href="detail.html" class="tile-link">  </a>
+                  <h4>Name of the work 5</h4>
+                  <div class="box-masonry-desription">
+                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry">
+                <div class="box-masonry-text">
+                  <h4> <a href="detail.html">Name of the work 6</a></h4>
+                  <div class="box-masonry-desription">
+                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/label-clothes.jpg" alt="" class="img-fluid"></a>
+                <div class="box-masonry-text">
+                  <h4> <a href="detail.html">Name of the work 7</a></h4>
+                  <div class="box-masonry-desription">
+                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/ipad-air-2.jpg" alt="" class="img-fluid"></a>
+                <div class="box-masonry-text">
+                  <h4> <a href="detail.html">Name of the work 8</a></h4>
+                  <div class="box-masonry-desription">
+                    <p>Fifth abundantly made Give sixth hath. Cattle creature i be don't them.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay with-hover-icon"><img src="img/portfolio/envelope-brand.jpg" alt="" class="img-fluid"></a>
+                <div class="box-masonry-text">
+                  <h4> <a href="detail.html">Item with image</a></h4>
+                  <div class="box-masonry-desription">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay"><img src="img/portfolio/trifold.jpg" alt="" class="img-fluid"></a>
+                <div class="box-masonry-hover-text-header"> <a href="detail.html" class="tile-link">  </a>
+                  <h4>Item with image</h4>
+                  <div class="box-masonry-desription">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item">
+              <div class="box-masonry"> <a href="detail.html" title="" class="box-masonry-image with-hover-overlay"><img src="img/portfolio/paper-presentation.jpg" alt="" class="img-fluid"></a>
+                <div class="box-masonry-hover-text-header"> <a href="detail.html" class="tile-link">  </a>
+                  <h4>Item with image</h4>
+                  <div class="box-masonry-desription">
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-facebook"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-pinterest"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use>
-            </svg></a></div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-          <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">contact@urkuportfolio.com </a></span></p>
-          <p class="rk-footer__text rk-footer__by">Theme by <a href="http://pixeden.com" class="ae-u-bolder">Pixeden.</a></p>
-        </div>
+        <!--   *** PORTFOLIO END ***-->
       </div>
-    </footer>
-    <script src="assets/js/svg4everybody.min.js"></script>
-    <script>svg4everybody();</script>
-  </body>
-</html>
+    </div>
+  </div>
+  <!-- JavaScript files-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/popper.js/umd/popper.min.js"> </script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="vendor/masonry-layout/masonry.pkgd.min.js"></script>
+  <script src="js/front.js"></script>
+</body>
